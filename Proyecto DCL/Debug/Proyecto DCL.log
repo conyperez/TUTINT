@@ -1,0 +1,45 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Proyecto DCL.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Act1DosBB.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Act1DosBD.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Act1DosBI.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Act1UnoBB.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Act1UnoBD.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Act1UnoBI.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Advertencia.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  AgenteAprendizaje.cpp
+  AgenteControlador.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  BaseDeDatos.cpp
+  FormEstrella.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Login.cpp
+  ManejadorBD.cpp
+  MyForm.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  NivelDos.cpp
+NivelDos.cpp(19): error C2440: 'inicializando': no se puede realizar la conversión de 'std::string' a 'std::list<std::string,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=std::string
+          ]
+  NivelDos.cpp(19): note: Ningún constructor ha podido aceptar el tipo de origen o bien la resolución de sobrecarga del constructor era ambigua
+  NivelUno.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  Niveles.cpp
+  Percepciones.cpp
+  PrincipalCinco.cpp
+  PrincipalCuatro.cpp
+  Generando código...
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agenteaprendizaje.cpp(151): warning C4715: 'AgenteAprendizaje::obtenerCritica': no todas las rutas de acceso de control devuelven un valor
+  Compilando...
+  PrincipalDos.cpp
+c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\AgenteControlador.h(40): fatal error C1070: el par #if/#endif no coincide en el archivo 'c:\users\conny\documents\universidad\programacion avanzada (2)\proyecto tutint\proyecto tutint v4 (act de esta etapa)\24-11-2017 tutintv2\proyecto tutint v2\proyecto dcl\agentecontrolador.h'
+  PrincipalTres.cpp
+  PrincipalUno.cpp

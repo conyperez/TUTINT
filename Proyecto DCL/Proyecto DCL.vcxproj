@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9696B190-8A31-45BA-A43E-0287102EF438}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Proyecto_DCL</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Proyecto TUTINT</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Act1DosBB.cpp" />
+    <ClCompile Include="Act1DosBD.cpp" />
+    <ClCompile Include="Act1UnoBB.cpp" />
+    <ClCompile Include="Act1UnoBD.cpp" />
+    <ClCompile Include="Act1DosBI.cpp" />
+    <ClCompile Include="Act1UnoBI.cpp" />
+    <ClCompile Include="Advertencia.cpp" />
+    <ClCompile Include="AgenteAprendizaje.cpp" />
+    <ClCompile Include="AgenteControlador.cpp" />
+    <ClCompile Include="Argumento.cpp" />
+    <ClCompile Include="BaseDeConocimiento.cpp" />
+    <ClCompile Include="BaseDeDatos.cpp" />
+    <ClCompile Include="BaseDeHechos.cpp" />
+    <ClCompile Include="Conector.cpp" />
+    <ClCompile Include="Evaluador.cpp" />
+    <ClCompile Include="FormEstrella.cpp" />
+    <ClCompile Include="Hecho.cpp" />
+    <ClCompile Include="LeerArchivo.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="ManejadorBD.cpp" />
+    <ClCompile Include="ManejadorMI.cpp" />
+    <ClCompile Include="Mensaje.cpp" />
+    <ClCompile Include="MotorDeInferencia.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="NivelDos.cpp" />
+    <ClCompile Include="Niveles.cpp" />
+    <ClCompile Include="NivelUno.cpp" />
+    <ClCompile Include="Percepciones.cpp" />
+    <ClCompile Include="PrincipalCuatro.cpp" />
+    <ClCompile Include="PrincipalDos.cpp" />
+    <ClCompile Include="PrincipalCinco.cpp" />
+    <ClCompile Include="PrincipalTres.cpp" />
+    <ClCompile Include="PrincipalUno.cpp" />
+    <ClCompile Include="RangosTiempo.cpp" />
+    <ClCompile Include="Recuperacion.cpp" />
+    <ClCompile Include="Registro.cpp" />
+    <ClCompile Include="Regla.cpp" />
+    <ClCompile Include="TiempoGUI.cpp" />
+    <ClCompile Include="TiempoMI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Act1DosBB.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Act1DosBD.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Act1UnoBB.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Act1UnoBD.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Act1DosBI.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Act1UnoBI.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Advertencia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AgenteAprendizaje.h" />
+    <ClInclude Include="AgenteControlador.h" />
+    <ClInclude Include="Argumento.h" />
+    <ClInclude Include="BaseDeConocimiento.h" />
+    <ClInclude Include="BaseDeDatos.h" />
+    <ClInclude Include="BaseDeHechos.h" />
+    <ClInclude Include="Conector.h" />
+    <ClInclude Include="Evaluador.h" />
+    <ClInclude Include="FormEstrella.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hecho.h" />
+    <ClInclude Include="LeerArchivo.h" />
+    <ClInclude Include="Login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ManejadorBD.h" />
+    <ClInclude Include="ManejadorMI.h" />
+    <ClInclude Include="Mensaje.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MotorDeInferencia.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NivelDos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Niveles.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NivelUno.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Percepciones.h" />
+    <ClInclude Include="PrincipalCuatro.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PrincipalDos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PrincipalCinco.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PrincipalTres.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PrincipalUno.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RangosTiempo.h" />
+    <ClInclude Include="Recuperacion.h" />
+    <ClInclude Include="Registro.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Regla.h" />
+    <ClInclude Include="TiempoGUI.h" />
+    <ClInclude Include="TiempoMI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Act1DosBB.resx">
+      <DependentUpon>Act1DosBB.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosBD.resx">
+      <DependentUpon>Act1DosBD.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosBI.resx">
+      <DependentUpon>Act1DosBI.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoBB.resx">
+      <DependentUpon>Act1UnoBB.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoBD.resx">
+      <DependentUpon>Act1UnoBD.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoBI.resx">
+      <DependentUpon>Act1UnoBI.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Advertencia.resx">
+      <DependentUpon>Advertencia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEstrella.resx">
+      <DependentUpon>FormEstrella.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje.resx">
+      <DependentUpon>Mensaje.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NivelDos.resx">
+      <DependentUpon>NivelDos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niveles.resx">
+      <DependentUpon>Niveles.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NivelUno.resx">
+      <DependentUpon>NivelUno.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalCinco.resx">
+      <DependentUpon>PrincipalCinco.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalCuatro.resx">
+      <DependentUpon>PrincipalCuatro.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalDos.resx">
+      <DependentUpon>PrincipalDos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalTres.resx">
+      <DependentUpon>PrincipalTres.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalUno.resx">
+      <DependentUpon>PrincipalUno.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Audios\Dory.wav" />
+    <Media Include="..\Audios\Marlin.wav" />
+    <Media Include="..\Audios\Tiburones.wav" />
+    <Media Include="..\Audios\Tortugas.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

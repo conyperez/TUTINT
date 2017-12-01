@@ -1,0 +1,229 @@
+  Proyecto_DCL.Act1DosBB.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Act1DosBD.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Act1DosBI.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Act1UnoBB.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Act1UnoBD.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Act1UnoBI.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Advertencia.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.FormEstrella.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Login.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Mensaje.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.NivelDos.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Niveles.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.NivelUno.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.PrincipalCinco.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.PrincipalCuatro.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.PrincipalDos.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.PrincipalTres.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.PrincipalUno.resources - Embedded, ContainedInManifestFile, 
+  Proyecto_DCL.Registro.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Proyecto TUTINT, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class BaseDeDatos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    estadoBD(Int32): PrivateScope, Public, HideBySig
+    ingresarDatosRegistro(String): PrivateScope, Public, HideBySig
+    ingresarDesbloqueoSiguienteActividad(): PrivateScope, Public, HideBySig
+    ingresarDesbloqueoSiguienteHabilidad(String): PrivateScope, Public, HideBySig
+    ingresarDesbloqueoSiguienteNivel(String): PrivateScope, Public, HideBySig
+    ingresarActualizacionDatosActividad(Int32, Int32, String, Int32, String, Int32): PrivateScope, Public, HideBySig
+    ingresarActualizacionDatosHabilidad(String, Int32, String): PrivateScope, Public, HideBySig
+    ingresarActualizacionDatosNivel(Int32, String): PrivateScope, Public, HideBySig
+    ingresarActualizarDatosEstrellasTotales(Int32): PrivateScope, Public, HideBySig
+    ingresarActualizarDatosEstrellasNivel(Int32): PrivateScope, Public, HideBySig
+    ingresarActualizarDatosEstrellasHabilidad(Int32): PrivateScope, Public, HideBySig
+    ingresarDatosActividadActual(Int32, Int32, Int32, String, Int32, String, Int32): PrivateScope, Public, HideBySig
+    seleccionarListaUsuariosRegistrados(): PrivateScope, Public, HideBySig
+    seleccionarNivelActual(list<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*): PrivateScope, Public, HideBySig
+    seleccionarHabilidadActual(list<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*): PrivateScope, Public, HideBySig
+    seleccionarActividadActual(): PrivateScope, Public, HideBySig
+    seleccionarNivLogroActividadActual(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    seleccionarCantEstrellasNivel(): PrivateScope, Public, HideBySig
+    seleccionarCantEstrellasHabilidad(): PrivateScope, Public, HideBySig
+    seleccionarTotalEstrellas(): PrivateScope, Public, HideBySig
+    seleccionarIntentosActividad(): PrivateScope, Public, HideBySig
+    seleccionarEstrellasActividadActual(): PrivateScope, Public, HideBySig
+    seleccionarNumeroSesion(): PrivateScope, Public, HideBySig
+    setNombreJugador(String): PrivateScope, Public, HideBySig
+    setNombreHabilidad(String): PrivateScope, Public, HideBySig
+    setNombreNivel(String): PrivateScope, Public, HideBySig
+    setObjetivoActividad(String): PrivateScope, Public, HideBySig
+    setNumeroActividad(Int32): PrivateScope, Public, HideBySig
+    setNumSesion(Int32): PrivateScope, Public, HideBySig
+    getNumSesion(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class ManejadorBD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    ingresarDatosRegistro(String): PrivateScope, Public, HideBySig
+    ingresarDesbloqueoSiguienteActividad(): PrivateScope, Public, HideBySig
+    ingresarDesbloqueoSiguienteHabilidad(String): PrivateScope, Public, HideBySig
+    ingresarDesbloqueoSiguienteNivel(String): PrivateScope, Public, HideBySig
+    ingresarActualizacionDatosActividad(Int32, Int32, String, Int32, String, Int32): PrivateScope, Public, HideBySig
+    ingresarActualizacionDatosHabilidad(String, Int32, String): PrivateScope, Public, HideBySig
+    ingresarActualizacionDatosNivel(Int32, String): PrivateScope, Public, HideBySig
+    ingresarActualizarDatosEstrellasTotales(Int32): PrivateScope, Public, HideBySig
+    ingresarActualizarDatosEstrellasNivel(Int32): PrivateScope, Public, HideBySig
+    ingresarActualizarDatosEstrellasHabilidad(Int32): PrivateScope, Public, HideBySig
+    ingresarDatosActividadActual(Int32, Int32, Int32, String, Int32, String, Int32): PrivateScope, Public, HideBySig
+    seleccionarListaUsuariosRegistrados(): PrivateScope, Public, HideBySig
+    seleccionarNivelActual(list<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*): PrivateScope, Public, HideBySig
+    seleccionarHabilidadActual(list<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*): PrivateScope, Public, HideBySig
+    seleccionarActividadActual(): PrivateScope, Public, HideBySig
+    seleccionarNivLogroActividadActual(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    seleccionarCantEstrellasNivel(): PrivateScope, Public, HideBySig
+    seleccionarCantEstrellasHabilidad(): PrivateScope, Public, HideBySig
+    seleccionarTotalEstrellas(): PrivateScope, Public, HideBySig
+    seleccionarIntentosActividad(): PrivateScope, Public, HideBySig
+    seleccionarEstrellasActividadActual(): PrivateScope, Public, HideBySig
+    setNombreJugador(String): PrivateScope, Public, HideBySig
+    setNombreHabilidad(String): PrivateScope, Public, HideBySig
+    setNombreNivel(String): PrivateScope, Public, HideBySig
+    setNumeroActividad(Int32): PrivateScope, Public, HideBySig
+    setObjetivoAct(String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct TiempoMI: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct RangosTiempo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Percepciones: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Recuperacion: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct AgenteAprendizaje: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Evaluador: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct AgenteControlador: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class TiempoGUI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    setIniciar(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    setHoras(Int32): PrivateScope, Public, HideBySig
+    setMinutos(Int32): PrivateScope, Public, HideBySig
+    setSegundos(Int32): PrivateScope, Public, HideBySig
+    getHoras(): PrivateScope, Public, HideBySig
+    getMinutos(): PrivateScope, Public, HideBySig
+    getSegundos(): PrivateScope, Public, HideBySig
+    cronometro(): PrivateScope, Public, HideBySig
+    segundostotales(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Proyecto_DCL.Act1DosBB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD, AgenteControlador*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ManejadorMI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    insertar(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Int32, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    insertar2(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, vector<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*): PrivateScope, Public, HideBySig
+    borrarHechos(): PrivateScope, Public, HideBySig
+    iniciarHechos(): PrivateScope, Public, HideBySig
+    ejecutarMotorInferencia(): PrivateScope, Public, HideBySig
+    calcularNivLogroActividad(): PrivateScope, Public, HideBySig
+    calcularNivLogroHabilidad(Int32, Int32): PrivateScope, Public, HideBySig
+    ejecutarMIHabilidad(): PrivateScope, Public, HideBySig
+    getNumeroDeEstrellas(): PrivateScope, Public, HideBySig
+    getNivLogroActividad(): PrivateScope, Public, HideBySig
+    getContadorBuenas(): PrivateScope, Public, HideBySig
+    getContadorMalas(): PrivateScope, Public, HideBySig
+    getSgteHab(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class Proyecto_DCL.FormEstrella: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(AgenteControlador*, ManejadorBD, System.String, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Advertencia: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, Boolean, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Windows.Forms.Form, Boolean, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.PrincipalUno: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Act1DosBD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD, AgenteControlador*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Act1UnoBB: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD, AgenteControlador*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Act1UnoBD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD, AgenteControlador*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Act1DosBI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD, AgenteControlador*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Act1UnoBI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD, AgenteControlador*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.PrincipalDos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.PrincipalTres: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.PrincipalCuatro: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.PrincipalCinco: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Niveles: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, BaseDeDatos): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Registro: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridView, BaseDeDatos): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.Mensaje: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.NivelDos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Proyecto_DCL.NivelUno: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.Form, ManejadorBD): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
